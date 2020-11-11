@@ -1,0 +1,16 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a small Blockchain application",
+  "main": "index.js",
+  "repository": "https://github.com/soobin93/typechain.git",
+  "author": "<ssbin93@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+}
