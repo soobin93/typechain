@@ -7,6 +7,7 @@
   "author": "<ssbin93@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "crypto-js": "^4.0.0",
     "typescript": "^4.0.5"
   },
   "scripts": {
