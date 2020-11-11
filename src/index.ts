@@ -34,8 +34,6 @@ const genesisBlock: Block = new Block(1, "20202020", "", "Hello", 123456);
 
 let blockchain: Block[] = [genesisBlock];
 
-const getBlockchain = (): Block[] => blockchain;
-
 const getLatestBlock = (): Block => blockchain[blockchain.length - 1];
 
 const getNewTimestamp = (): number => Math.round(new Date().getTime() / 1000);
