@@ -1,0 +1,14 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learn Typescript",
+  "main": "index.js",
+  "repository": "https://github.com/soobin93/typechain.git",
+  "author": "<ssbin93@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  },
+  "dependencies": {}
+}
