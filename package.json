@@ -10,5 +10,7 @@
     "start": "node index.js",
     "prestart": "tsc"
   },
-  "dependencies": {}
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
 }
